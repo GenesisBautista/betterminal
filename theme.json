@@ -1,33 +1,9 @@
 {
-    "Message": {
-        "R": 3,
-        "G": 3,
-        "B": 3
-    },
-    "Success": {
-        "R": 0,
-        "G": 5,
-        "B": 0
-    },
-    "Error": {
-        "R": 5,
-        "G": 0,
-        "B": 0
-    },
-    "Warning": {
-        "R": 5,
-        "G": 5,
-        "B": 0
-    },
-    "Info": {
-        "R": 0,
-        "G": 0,
-        "B": 5
-    },
-    "System": {
-        "G": 0
-    },
-    "Grid": {
-        "G": 15
-    }
+  "message": { "fg": { "gray": 12 } },
+  "success": { "fg": { "rgb": [0, 5, 0] } },
+  "error": { "fg": { "rgb": [5, 0, 0] }, "bold": true },
+  "warning": { "fg": { "rgb": [5, 5, 0] } },
+  "info": { "fg": { "rgb": [0, 0, 5] } },
+  "system": { "fg": { "gray": 8 } },
+  "grid": { "fg": { "gray": 18 } }
 }
